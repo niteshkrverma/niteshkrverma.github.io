@@ -1,70 +1,81 @@
-*{
+* {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  font-family: 'Lato', sans-serif;  
+body {
+  font-family: "Lato", sans-serif;
 }
 
-.row{
+.row {
   width: 100%;
 }
 
-.menu-title{
+.menu {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.container{
- position: relative;
- top:60px;
- margin: 15px; 
+.container {
+  position: relative;
+  top: 60px;
+  margin: 15px;
 }
 
-.item{
+.item {
   position: relative;
   top: 0;
-  background-color:#999999;
+  background-color: #999999;
   margin: 15px;
   padding: 25px;
   border: 3px solid #000;
 }
 
-.item p{
+.item p {
   margin-top: 18px;
   text-align: justify;
-  font-size:100%;
+  font-size: 100%;
 }
 
-.item-title{
+.title {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0px;
-  background: green; 
+  background: green;
   padding: 6px 90px;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
 }
 
 #title-one {
-  background-color: #D59898;
-} 
-
-#title-two{
-  background-color: #C14543;
+  background-color: #d59898;
 }
 
-#title-three{
-  background-color: #E5D198;
+#title-two {
+  background-color: #c14543;
+}
+
+#title-three {
+  background-color: #e5d198;
 }
 
 /* Simple Responsive Framework. */
 /*------ Desktop ------*/
-@media (min-width: 992px){
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;  
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -102,26 +113,23 @@ body{
   .col-lg-12 {
     width: 100%;
   }
-
 }
 
-
 /*------ Tablet ------*/
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   .col-lg-4 {
     width: 50%;
     float: left;
   }
-  .col-lg-tablet{
-   width: 100%;
-   float: left;
- }
+  .col-lg-tablet {
+    width: 100%;
+    float: left;
+  }
 }
 
-
 /*------ Mobile ------*/
-@media (max-width: 767px){
-  .col-lg-4{
+@media (max-width: 767px) {
+  .col-lg-4 {
     width: 100%;
     float: left;
   }
